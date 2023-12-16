@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width , intial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-ezj+f24EiqL1fVMbCvHrVAcql9Nbe5rSG7LyLC3z5RvW0MlE6x3PmXsW1hxi9WoL" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+
+        <link rel="stylesheet" href="style.css">
+        <title>Job Details</title>
+    </head>
+    <body>
+      <header>
+        <a href="#" class="logo-container"><img class="logo" src="logo.png" alt="Logo"></a>
+        <nav class="navigation">
+            <ul id="menu">
+                <li><a href="#Jobs">Jobs</a></li>
+                <li><a href="#community">Community</a></li>
+                <li><a href="#contact">Career Advice </a></li>
+            </ul>
+            <div class="rightnv">
+            <ul id="barreuser">
+                <li><a href="#"><button class="buttonbl">
+                  <svg viewBox="0 0 448 512" class="bell"><path d="M224 0c-17.7 0-32 14.3-32 32V49.9C119.5 61.4 64 124.2 64 200v33.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416H424c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4V200c0-75.8-55.5-138.6-128-150.1V32c0-17.7-14.3-32-32-32zm0 96h8c57.4 0 104 46.6 104 104v33.4c0 47.9 13.9 94.6 39.7 134.6H72.3C98.1 328 112 281.3 112 233.4V200c0-57.4 46.6-104 104-104h8zm64 352H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z"></path></svg>
+               </button></a></li>
+                <li><a href="#"><button class="bookmarkBtn">
+                  <span class="IconContainer"> 
+                    <svg viewBox="0 0 384 512" height="0.9em" class="icon"><path d="M0 48V487.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400 345.7 507.6c4.1 2.9 9 4.4 14 4.4c13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z"></path></svg></a>
+                  </span>
+                  <p class="text">Saved</p>
+                </button></li>
+                <li><a href="#"><div class="prflicon"></div><div class="barrnavsm"></div></a></li>
+            </ul></div>
+        </nav>
+    </header>
+    
+        <section class="main">
+          <div class="searchjb">
+            <div class="input-group">
+              <input type="text" class="input" id="Email" name="Email" placeholder="job title,company" autocomplete="off">
+              <input class="button--submit" value="What" type="submit">
+            <input type="text" class="inputplace" id="Email" name="Email" placeholder="City,state,Country" autocomplete="off">
+            <input class="button--submit" value="where" type="submit">
+        </div>
+        <div class="rquest"><button>
+          <span>Find jobs</span>
+        </button></div>
+        </div>
+        
+        
+        
+        </section>
+        <div class="filter">
+          <div class="radio-inputs">
+            <label class="radio">
+              <input type="radio" name="radio" checked="">
+              <span class="name">Best matches</span>
+            </label>
+            <label class="radio">
+              <input type="radio" name="radio">
+              <span class="name">Featured</span>
+            </label>
+                
+            <label class="radio">
+              <input type="radio" name="radio">
+              <span class="name">Most recent</span>
+            </label>
+          </div>
+        </div>
+        <div class="filter-search">
+          <div class="radio-inputs">
+            <label class="radio">
+              <input type="radio" name="radio" checked="">
+              <span class="name">Best matches</span>
+            </label>
+            <label class="radio">
+              <input type="radio" name="radio">
+              <span class="name">Featured</span>
+            </label>
+                
+            <label class="radio">
+              <input type="radio" name="radio">
+              <span class="name">Most recent</span>
+            </label>
+          </div>
+        </div>
+        <!---------------------post of jobs--------------------------------------------->
+        <div class="job-postes">
+          <div class="task" draggable="true">
+            <div class="profil" style="background-color: #56C4B7; height: 40px; width: 40px;"></div>
+            <div class="tags">
+              <span class="tag">Figma Designer</span>
+              <label class="ui-bookmark">
+                <input type="checkbox">
+                <div class="bookmark">
+                  <svg viewBox="0 0 32 32">
+                    <g>
+                      <path d="M27 4v27a1 1 0 0 1-1.625.781L16 24.281l-9.375 7.5A1 1 0 0 1 5 31V4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4z"></path>
+                    </g>
+                  </svg>
+                </div>
+              </label>
+            </div>
+            <p>We are looking for figma designers who can<br>
+              help desiging the entire mobile application ... </p><br>
+              <div class="intres">
+                <div class="spesific"><h4>UI/UX</h4></div>
+            </div>
+            <div class="stats">
+              <div>
+                <div class="rating">
+                  <input type="radio" id="star-1" name="star-radio" value="star-1">
+                  <label for="star-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+                  </label>
+                  <input type="radio" id="star-2" name="star-radio" value="star-1">
+                  <label for="star-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+                  </label>
+                  <input type="radio" id="star-3" name="star-radio" value="star-1">
+                  <label for="star-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+                  </label>
+                  <input type="radio" id="star-4" name="star-radio" value="star-1">
+                  <label for="star-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+                  </label>
+                  <input type="radio" id="star-5" name="star-radio" value="star-1">
+                  <label for="star-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+                  </label>
+                </div>
+                <div class="propo"><span><M class="pp">Project Verified</M>  Proposals: 10 to 15</span></div>
+                
+              </div>
+              
+            </div>
+            
+          </div>
+          <!---------------2nd block----------------------------------------------------->
+          <div class="task">
+            <div class="profil" style="background-color: #56C4B7; height: 40px; width: 40px;"></div>
+            <div class="tags">
+              <span class="tag">Figma Designer</span>
+              <label class="ui-bookmark">
+                <input type="checkbox">
+                <div class="bookmark">
+                  <svg viewBox="0 0 32 32">
+                    <g>
+                      <path d="M27 4v27a1 1 0 0 1-1.625.781L16 24.281l-9.375 7.5A1 1 0 0 1 5 31V4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4z"></path>
+                    </g>
+                  </svg>
+                </div>
+              </label>    
+            </div>
+            <p>We are looking for figma designers who can<br>
+              help desiging the entire mobile application ... </p><br>
+              <div class="intres">
+                <div class="spesific"><h4>UI/UX</h4></div>
+            </div>
+            <div class="stats">
+              <div>
+                <div class="rating">
+                  <input type="radio" id="star-1" name="star-radio" value="star-1">
+                  <label for="star-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+                  </label>
+                  <input type="radio" id="star-2" name="star-radio" value="star-1">
+                  <label for="star-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+                  </label>
+                  <input type="radio" id="star-3" name="star-radio" value="star-1">
+                  <label for="star-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+                  </label>
+                  <input type="radio" id="star-4" name="star-radio" value="star-1">
+                  <label for="star-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+                  </label>
+                  <input type="radio" id="star-5" name="star-radio" value="star-1">
+                  <label for="star-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+                  </label>
+                </div>
+                
+                <div class="propo"><span><M class="pp">Project Verified</M>  Proposals: 10 to 15</span></div>
+              </div>
+              
+            </div>
+            
+          </div>
+          <!---------------3rd block----------------------------------------------------->
+          <div class="task">
+            <div class="profil" style="background-color: #56C4B7; height: 40px; width: 40px;"></div>
+            <div class="tags">
+              <span class="tag">Figma Designer</span>
+              <label class="ui-bookmark">
+                <input type="checkbox">
+                <div class="bookmark">
+                  <svg viewBox="0 0 32 32">
+                    <g>
+                      <path d="M27 4v27a1 1 0 0 1-1.625.781L16 24.281l-9.375 7.5A1 1 0 0 1 5 31V4a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4z"></path>
+                    </g>
+                  </svg>
+                </div>
+              </label>
+            </div>
+            <p>We are looking for figma designers who can<br>
+              help desiging the entire mobile application ... </p><br>
+              <div class="intres">
+                <div class="spesific"><h4>UI/UX</h4></div>
+            </div>
+            <div class="stats">
+              <div>
+                <div class="rating">
+                  <input type="radio" id="star-1" name="star-radio" value="star-1">
+                  <label for="star-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+                  </label>
+                  <input type="radio" id="star-2" name="star-radio" value="star-1">
+                  <label for="star-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+                  </label>
+                  <input type="radio" id="star-3" name="star-radio" value="star-1">
+                  <label for="star-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+                  </label>
+                  <input type="radio" id="star-4" name="star-radio" value="star-1">
+                  <label for="star-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+                  </label>
+                  <input type="radio" id="star-5" name="star-radio" value="star-1">
+                  <label for="star-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+                  </label>
+                </div>
+                <div class="propo"><span><M class="pp">Project Verified</M>  Proposals: 10 to 15</span></div>
+            </div>
+            
+          </div>
+        </div>
+        <!-----------------------------detaile of job---------------->
+        <div class="Details">
+         
+            <span class="tit-job"> <div class="profil-dt"></div><h2>FigmaDesigner</h2></span>
+           
+            <div class="svpost"><input type="checkbox" id="checkboxInput">
+              <label for="checkboxInput" class="bookmark">
+          <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" class="svgIcon"><path d="M0 48V487.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400 345.7 507.6c4.1 2.9 9 4.4 14 4.4c13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z"></path></svg>
+              </label></div>
+          
+            
+          <h3 class="ovproduct">Product Overview</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br>industry.<br>  Lorem Ipsum has been
+            the industry's standard dummy text ever since <br> the 1500s,  when an unknown printer took a galley of 
+            type and <br>scrambled  it to make a type specimen book.<br>  It has survived not only five centuries, but 
+            also the leap into electronic<br> typesetting, remaining essentially unchanged.<br> It was popularised in the 
+            1960s with the release of Letraset sheets<br> containing Lorem Ipsum passages, and more recently
+            with desktop <br>publishing software like Aldus PageMaker including versions <br>of Lorem Ipsum. </p><br>
+            <div class="intres">
+              <h2>Skills</h2>
+              <div class="specific">
+                  <ul>
+                      <li>UI/UX</li>
+                      <li>Landing Page</li>
+                      <li>Figma</li>
+                  </ul>
+              </div>
+          </div>
+          
+          
+          <div class="stats">
+
+            <h2 class="titdt">DetailProject</h2>
+            <div class="prdt">
+                <ul>
+                    <li>5.00 of 48 reviews</li>
+                    <li>28 success projects</li>
+                    <li>$60k+ total spent</li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="btnsbm">
+            
+        <button type="button" class="button">
+    <span class="button__text">Submit a Proposal</span>
+    <span class="button__icon"><svg xmlns="http://www.w3.org/2000/svg" width="33" viewBox="0 0 24 24" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" height="24" fill="none" class="svg"><line y2="19" y1="5" x2="12" x1="12"></line><line y2="12" y1="12" x2="19" x1="5"></line></svg></span>
+  </button></div>
+     
+        <!------------------------------------------Profil details ------------------------------------------------------------------>
+   
+      <div class="userprofilsection">
+        <div class="prfl-img"></div>
+        <div class="prfl-dt">
+          <h4 style="text-decoration: none;">Laura Sullivan</h4>
+
+        <span>Product Designer</span>
+        <div class="btndtpr">
+        <a href="#"><input type="submit" value="Edit Profile"></a></div>
+      
+      
+      </div>
+    </div>
+    
+    <!--------------------------------------------Availability---------------------------------------------------->
+    <div class="available">
+      <h3>Availabilty</h3>
+      <div class="anv"><span>🔥available work</span></div>
+      <h4>Connect & Amount</h4>
+      <p>18 Available Connects<br>
+        2 Submitted Proposal</p>
+        <div class="Skillsexper">
+          <h4>Skills and Expertise</h4>
+        <div class="skilexpert">
+          <ul>
+            <li class="tag__name">Animation</li>
+            <li class="tag__name">Figma</li>
+            <li class="tag__name">UX Designer</li>
+            <li class="tag__name">CSS</li>
+          </ul>
+        </div>
+      <a href="#dtt" class="vprfl"><input type="submit" value="View Profile"></a>
+        </div>
+    </div>
+  
+    </body>
+    <footer>
+
+    </footer>
+</html>
